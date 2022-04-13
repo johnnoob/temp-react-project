@@ -79,30 +79,30 @@ const SingleCocktail = () => {
   return (
     <section className="section cocktial-section">
       <Link to="/" className="btn btn-primary">
-        back home
+        回到首頁
       </Link>
       <h2 className="section-title">{name}</h2>
       <div className="drink">
         <img src={image} alt={name} />
         <div className="drink-info">
           <p>
-            <span className="drink-data">name :</span>
+            <span className="drink-data">名稱 :</span>
             {name}
           </p>
           <p>
-            <span className="drink-data">category :</span>
+            <span className="drink-data">類型 :</span>
             {category}
           </p>
           <p>
-            <span className="drink-data">info :</span>
+            <span className="drink-data">酒類 :</span>
             {info}
           </p>
           <p>
-            <span className="drink-data">glass :</span>
+            <span className="drink-data">杯子 :</span>
             {glass}
           </p>
           <p>
-            <span className="drink-data">ingredients :</span>
+            <span className="drink-data">原料 :</span>
             {ingredients.map((ingredient, index) => {
               return ingredient ? <span key={index}>{ingredient}</span> : null
             })}

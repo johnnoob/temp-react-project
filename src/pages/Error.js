@@ -5,9 +5,9 @@ const Error = () => {
   return (
     <section className="error-page section">
       <div className="error-container">
-        <h1>Oops! it's a dead end</h1>
+        <h1>Oops! 找不到網頁</h1>
         <Link to="/" className="btn btn-primary">
-          home page
+          回到首頁
         </Link>
       </div>
     </section>

@@ -21,7 +21,7 @@ const SearchForm = () => {
         }}
       >
         <div className="form-control">
-          <label htmlFor="name">Search your favorite cocktail</label>
+          <label htmlFor="name">搜尋你最愛的雞尾酒</label>
           <input
             type="text"
             id="name"

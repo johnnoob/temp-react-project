@@ -11,10 +11,10 @@ const Navbar = () => {
         </Link>
         <ul className="nav-links">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">首頁</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about">關於</Link>
           </li>
         </ul>
       </div>
